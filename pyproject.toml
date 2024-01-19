@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "shortkey"
+version = "0.1.0"
+description = ""
+authors = ["David Cho <david@cgoods.co.kr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.13"
+pynput = "^1.7.6"
+pyside6 = "^6.6.1"
+loguru = "^0.7.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "^6.3.0"
+black = "^23.12.1"
+autoflake = "^2.2.1"
+autopep8 = "^2.0.4"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+shortkey = "shortkey.start:main"
