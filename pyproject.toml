@@ -8,12 +8,12 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.8,<3.13"
 pynput = "^1.7.6"
-pyside6 = "^6.6.1"
 loguru = "^0.7.2"
+pystray = "^0.19.5"
+py2app = "^0.28.6"
 
 
 [tool.poetry.group.dev.dependencies]
-pyinstaller = "^6.3.0"
 black = "^23.12.1"
 autoflake = "^2.2.1"
 autopep8 = "^2.0.4"
@@ -25,3 +25,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 shortkey = "shortkey.start:main"
+

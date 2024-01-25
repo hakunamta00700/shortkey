@@ -19,3 +19,4 @@ else:
 
 ICON_PATH = os.path.join(application_path, "resources", "icon.png")
 KEY_PATH = os.path.join(application_path, "resources", "keys.json")
+START_EXE = os.path.join(application_path, "resources", "start")
