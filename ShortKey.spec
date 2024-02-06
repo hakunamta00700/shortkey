@@ -5,7 +5,7 @@ a = Analysis(
     ['src/main.py'],
     pathex=[],
     binaries=[],
-    datas=[('src/resources/icon.png', 'resources'), ('src/resources/keys.json', 'resources')],
+    datas=[('src/shortkey/resources/icon.png', 'resources'), ('src/shortkey/resources/keys.json', 'resources')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -34,11 +34,11 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['src/resources/icon.icns'],
+    icon=['src/shortkey/resources/icon.icns'],
 )
 app = BUNDLE(
     exe,
     name='ShortKey.app',
-    icon='src/resources/icon.icns',
+    icon='src/shortkey/resources/icon.icns',
     bundle_identifier=None,
 )
