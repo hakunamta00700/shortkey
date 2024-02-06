@@ -41,7 +41,7 @@ Shortkey 모듈은 다음과 같은 주요 기능을 제공합니다:
 
 ## 기여하기
 
-Shortkey는 오픈 소스 프로젝트입니다. 기여를 원하시는 분은 프로젝트의 [GitHub 저장소](https://github.com/yourusername/shortkey)를 방문하여 이슈를 등록하거나 Pull Request를 보내주세요.
+Shortkey는 오픈 소스 프로젝트입니다. 기여를 원하시는 분은 프로젝트의 [GitHub 저장소](https://github.com/hakunamta00700/shortkey/issues)를 방문하여 이슈를 등록하거나 Pull Request를 보내주세요.
 
 ## 라이선스
 
@@ -49,5 +49,5 @@ Shortkey는 오픈 소스 프로젝트입니다. 기여를 원하시는 분은 �
 
 ## 문의하기
 
-Shortkey 모듈에 대한 질문이나 제안사항이 있으시면, [이슈 트래커](https://github.com/yourusername/shortkey/issues)를 통해 문의해주세요.
+Shortkey 모듈에 대한 질문이나 제안사항이 있으시면, [이슈 트래커](https://github.com/hakunamta00700/shortkey/issues)를 통해 문의해주세요.
 
