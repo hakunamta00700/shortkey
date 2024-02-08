@@ -1,11 +1,4 @@
-from shortkey.start import MyIcon
-
-
-def run_app():
-    MyIcon().run()
-
+from shortkey import run_console, run_ui
 
 if __name__ == "__main__":
-    icon = MyIcon()
-    icon.run()
-  
+    run_console()

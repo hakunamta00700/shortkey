@@ -27,6 +27,7 @@ def get_resource_filepath(fn, package_type=None):
 
 
 PACKAGE_TYPE = detect_runtime_environment()
-logger.info(f"PACKAGE_TYPE:{PACKAGE_TYPE} -- path:{Path(__file__).absolute()}")
+keys_json = Path(__file__).parent.joinpath("resources", "keys.json").absolute()
+logger.info(f"PACKAGE_TYPE:{PACKAGE_TYPE} -- path:{keys_json}")
 ICON_PATH = get_resource_filepath("icon.png", package_type=PACKAGE_TYPE)
 KEY_PATH = get_resource_filepath("keys.json", package_type=PACKAGE_TYPE)

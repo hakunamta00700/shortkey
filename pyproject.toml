@@ -27,5 +27,5 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-shortkey = "shortkey.start:main"
-shortkeyui = "shortkey.start:run_ui"
+shortkey = "shortkey:run_console"
+shortkeyui = "shortkey:run_ui"
