@@ -14,9 +14,7 @@ from .start import console
 
 
 def create_image(imgFilePath, width, height):
-    # 이미지 파일을 엽니다
     image = Image.open(imgFilePath)
-    # 이미지 크기를 지정된 너비와 높이로 조정합니다
     resized_image = image.resize((width, height))
     return resized_image
 
